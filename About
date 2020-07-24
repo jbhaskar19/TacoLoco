@@ -1,0 +1,28 @@
+About
+
+This is simple implementation for Tacoc Loco - getTotal for the billing module.
+
+I have used JSP HTMl CSS Javascript for UI
+Tomcat 9.0 server
+Eclipse 2020
+Ajax call to controller
+Using JSON Request/Response format
+
+
+Description:
+
+Consume the Post Method =>EndPoint:http://localhost:8080/TacoLoco/total
+Full flow with UI =>EndPoint:http://localhost:8080/TacoLoco/
+
+Features:
+UI has a drop down to choose types of tacos from and enter the number of tacos .
+on clicking the "add item" button items are added to the bill.
+
+The user can remove spefic items from the order by clickinh the "remove" button.
+
+Once the "Place Order" button is clicked, the request hits the controller which calculates the total and posts back to the index.jsp page.
+
+If more than 4 tacos are ordered then a discount of 20% is offered.
+
+"Payment Proceess" button is provided for future implementation.
+
